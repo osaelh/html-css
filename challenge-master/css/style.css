@@ -1,0 +1,178 @@
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem ;
+    width: 100%;
+    
+}
+
+
+.intro-div{
+    padding-top: 1.5em;
+    padding-left: 3em;
+    
+}
+
+
+#logo{
+    padding-left: 1em;
+    
+}
+
+.paragraph-section{
+    padding-top: 5em;
+    font-size: 1.5em;
+    
+   
+}
+
+.paragraph-section h1{
+
+    
+}
+
+
+
+
+.paragraph-section  span{
+    color: white;
+    background-color:darkblue;
+    padding: 0.75em;
+    border-radius: 50%;
+    margin-right: 1.5em;
+
+
+    
+    
+}
+
+.paragraph-section #first-paragraph{
+       display: contents;
+       width: 40%;
+       
+       
+       
+}
+
+.paragraph-section #last-paragraph{
+    display: table-caption;
+    color: gray;
+    font-size: 0.75em;
+    display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  
+  max-width: 12em;
+  line-height: 1.8em;
+  width:20% ;
+    
+}
+
+
+
+.button-section{
+   
+padding-top: 5em;
+
+    
+   
+   
+}
+
+
+
+
+
+
+
+.button-section Button {
+    color:white;
+    background-color: tomato;
+    border-radius: 10%;
+    padding: 2em;
+    border: none;
+    
+}
+ .button-section a{
+     margin-left: 5em;
+     text-decoration-line: none;
+     color: darkgray;
+ }
+
+
+/* The first section art divs */
+
+
+.art-div{
+    
+
+    position: fixed;
+    left: 40%;
+    top: 20%;
+   
+}
+    
+
+
+.art-div img{
+    width: 80%;
+    height: auto;
+  
+}
+
+.art-div ul{
+    position: fixed;
+    top: 1%;
+    
+    
+
+    
+}
+
+.art-div ul li{
+    
+    display: inline;
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.art-div ul li a{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+   
+} 
+
+.art-div ul li a:hover{
+    background-color:indianred;
+}
+
+
+.art-div .dotted-circle{
+    list-style: circle;
+    color: red;
+    
+}
+
+.art-div .login-grey{
+    color: darkgray;
+    padding-left: 5em;
+}
+
+
+
+/* the second section background gris*/
+.art-background{
+   background-color: lightgray;
+   width: 60%;
+   height: 40%;
+   position: absolute;
+   top: 0%;
+   right: 1%;
+   border-bottom-left-radius: 3em;
+}
